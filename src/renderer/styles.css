@@ -1,0 +1,153 @@
+:root {
+  color-scheme: light;
+  background: transparent;
+  --pill-bg: rgba(255, 248, 252, 0.82);
+  --pill-border: rgba(123, 82, 112, 0.28);
+  --pill-text: #7b5270;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  font-family: Inter, ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.pet-shell {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: transparent;
+}
+
+.pet-stage {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: grab;
+  outline: none;
+  animation: float 2.8s ease-in-out infinite;
+}
+
+.pet-stage:active,
+.pet-stage.dragging {
+  cursor: grabbing;
+  animation: drag-wiggle 0.34s ease-in-out infinite alternate;
+}
+
+.pet-stage:focus-visible .pet-sprite {
+  filter: drop-shadow(0 0 0.35rem rgba(255, 128, 181, 0.85));
+}
+
+.pet-shadow {
+  position: absolute;
+  left: 50%;
+  bottom: 11px;
+  width: 112px;
+  height: 18px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: radial-gradient(ellipse, rgba(90, 55, 78, 0.2), rgba(90, 55, 78, 0));
+  animation: shadow-pulse 2.8s ease-in-out infinite;
+}
+
+.pet-sprite {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform-origin: 50% 82%;
+  filter: drop-shadow(0 14px 12px rgba(88, 42, 71, 0.18));
+  animation: sway 4.2s ease-in-out infinite;
+}
+
+.pet-sprite.expression-pop {
+  animation: expression-pop 360ms ease-out, sway 4.2s ease-in-out infinite 360ms;
+}
+
+.expression-pill {
+  position: absolute;
+  left: 50%;
+  bottom: 3px;
+  min-width: 76px;
+  transform: translateX(-50%);
+  padding: 5px 11px;
+  border: 1px solid var(--pill-border);
+  border-radius: 999px;
+  color: var(--pill-text);
+  background: var(--pill-bg);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  backdrop-filter: blur(8px);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes shadow-pulse {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: translateX(-50%) scale(0.92);
+  }
+  50% {
+    opacity: 0.28;
+    transform: translateX(-50%) scale(0.76);
+  }
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-1.5deg) scaleY(1);
+  }
+  50% {
+    transform: rotate(1.5deg) scaleY(1.018);
+  }
+}
+
+@keyframes drag-wiggle {
+  from {
+    transform: rotate(-2deg) scale(1.02);
+  }
+  to {
+    transform: rotate(2deg) scale(1.02);
+  }
+}
+
+@keyframes expression-pop {
+  0% {
+    transform: scale(0.92) rotate(-4deg);
+    opacity: 0.72;
+  }
+  65% {
+    transform: scale(1.06) rotate(2deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}

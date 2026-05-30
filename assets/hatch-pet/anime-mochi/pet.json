@@ -1,0 +1,18 @@
+{
+  "id": "anime-mochi",
+  "displayName": "Anime Mochi",
+  "description": "A cute anime-style placeholder desktop companion with five expressive moods.",
+  "spritesheetPath": "spritesheet-placeholder.svg",
+  "runtime": {
+    "defaultExpression": "idle",
+    "randomExpressionIntervalMs": [4500, 9000],
+    "expressions": [
+      { "id": "idle", "label": "Idle", "asset": "expressions/idle.svg" },
+      { "id": "happy", "label": "Happy", "asset": "expressions/happy.svg" },
+      { "id": "sleepy", "label": "Sleepy", "asset": "expressions/sleepy.svg" },
+      { "id": "angry", "label": "Angry", "asset": "expressions/angry.svg" },
+      { "id": "surprised", "label": "Surprised", "asset": "expressions/surprised.svg" }
+    ],
+    "idleAnimations": ["float", "sway", "blink"]
+  }
+}

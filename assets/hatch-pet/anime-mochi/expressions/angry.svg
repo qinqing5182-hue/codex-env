@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Anime Mochi angry expression">
+  <defs><linearGradient id="fur" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff7fc"/><stop offset="1" stop-color="#ffd6ea"/></linearGradient></defs>
+  <path d="M64 71 46 34c-5-11 6-23 17-16l32 21Zm92 0 18-37c5-11-6-23-17-16l-32 21Z" fill="#ffc0dd" stroke="#7b5270" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="110" cy="113" rx="77" ry="73" fill="url(#fur)" stroke="#7b5270" stroke-width="6"/>
+  <path d="M67 91l26 12M153 91l-26 12" stroke="#55364f" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="82" cy="109" r="8" fill="#55364f"/><circle cx="138" cy="109" r="8" fill="#55364f"/>
+  <path d="M96 130q14-11 28 0" fill="none" stroke="#55364f" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="61" cy="126" r="12" fill="#ff6c8f" opacity=".78"/><circle cx="159" cy="126" r="12" fill="#ff6c8f" opacity=".78"/>
+  <path d="M48 62h21M58 51v21M161 62h21M171 51v21" stroke="#ff5b69" stroke-width="5" stroke-linecap="round"/>
+  <path d="M79 174q12 14 27 1M114 175q15 13 28-1" fill="none" stroke="#7b5270" stroke-width="6" stroke-linecap="round"/>
+</svg>

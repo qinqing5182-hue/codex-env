@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Anime Mochi sleepy expression">
+  <defs><linearGradient id="fur" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff7fc"/><stop offset="1" stop-color="#ffd6ea"/></linearGradient></defs>
+  <path d="M64 71 46 34c-5-11 6-23 17-16l32 21Zm92 0 18-37c5-11-6-23-17-16l-32 21Z" fill="#ffc0dd" stroke="#7b5270" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="110" cy="116" rx="77" ry="70" fill="url(#fur)" stroke="#7b5270" stroke-width="6"/>
+  <path d="M69 106q11 8 23 0M128 106q11 8 23 0" fill="none" stroke="#55364f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M104 126q6 4 12 0" fill="none" stroke="#55364f" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="62" cy="127" r="11" fill="#ff9fc7" opacity=".55"/><circle cx="158" cy="127" r="11" fill="#ff9fc7" opacity=".55"/>
+  <text x="160" y="60" font-family="Arial, sans-serif" font-size="28" fill="#7a8cff" font-weight="700">Z</text>
+  <text x="181" y="42" font-family="Arial, sans-serif" font-size="18" fill="#a4b0ff" font-weight="700">z</text>
+  <path d="M79 174q12 14 27 1M114 175q15 13 28-1" fill="none" stroke="#7b5270" stroke-width="6" stroke-linecap="round"/>
+</svg>

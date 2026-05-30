@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hatch Pet Desktop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="pet-shell" aria-label="Desktop pet window">
+      <button class="pet-stage" id="petStage" type="button" aria-label="Drag Anime Mochi desktop pet">
+        <span class="pet-shadow" aria-hidden="true"></span>
+        <img class="pet-sprite" id="petSprite" alt="Anime Mochi pet" draggable="false" />
+        <span class="expression-pill" id="expressionPill" aria-live="polite">idle</span>
+      </button>
+    </main>
+    <script type="module" src="renderer.js"></script>
+  </body>
+</html>

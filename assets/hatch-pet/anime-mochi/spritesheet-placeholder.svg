@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1872" viewBox="0 0 1536 1872" role="img" aria-label="Anime Mochi hatch-pet placeholder spritesheet">
+  <image href="expressions/idle.svg" x="0" y="0" width="192" height="208"/>
+  <image href="expressions/happy.svg" x="192" y="0" width="192" height="208"/>
+  <image href="expressions/sleepy.svg" x="384" y="0" width="192" height="208"/>
+  <image href="expressions/angry.svg" x="576" y="0" width="192" height="208"/>
+  <image href="expressions/surprised.svg" x="768" y="0" width="192" height="208"/>
+  <image href="expressions/idle.svg" x="0" y="208" width="192" height="208" transform="translate(0 8)"/>
+  <image href="expressions/idle.svg" x="192" y="208" width="192" height="208" transform="translate(0 2) rotate(-2 288 312)"/>
+  <image href="expressions/idle.svg" x="384" y="208" width="192" height="208" transform="translate(0 0)"/>
+  <image href="expressions/idle.svg" x="576" y="208" width="192" height="208" transform="translate(0 2) rotate(2 672 312)"/>
+  <image href="expressions/idle.svg" x="768" y="208" width="192" height="208" transform="translate(0 8)"/>
+</svg>
