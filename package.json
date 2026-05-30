@@ -1,0 +1,22 @@
+{
+  "name": "hatch-pet-desktop",
+  "version": "0.1.0",
+  "description": "A draggable, transparent, always-on-top desktop pet powered by a hatch-pet style manifest.",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check src/main/main.js && node --check src/preload/preload.js && node --check src/renderer/renderer.js && node --check src/pet/manifest.js && node --check scripts/validate-pet-manifest.js",
+    "validate:pet": "node scripts/validate-pet-manifest.js"
+  },
+  "keywords": [
+    "desktop-pet",
+    "hatch-pet",
+    "electron",
+    "anime"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.7.7"
+  }
+}
